@@ -1,0 +1,9 @@
+.sidebar-collapse a.brand-link{
+    position: relative;
+}
+.sidebar-collapse span.brand-text{
+    display: none;
+}
+.sidebar-collapse:hover span.brand-text{
+    display: default;
+}
