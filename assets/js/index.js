@@ -40,7 +40,7 @@ $(function () {
             },
             error:function(res) {
                 $('#btn_rsync_gempaterkini i').removeClass('fa-spin');
-                $("#alert_rsync_gempaterkini span").html(res.message);
+                $("#alert_rsync_gempaterkini span").html(res.responseJSON.message);
                 $("#alert_rsync_gempaterkini").removeClass('alert-success').addClass('alert-danger');
                 $("#alert_rsync_gempaterkini").show();
             }

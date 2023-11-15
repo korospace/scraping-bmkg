@@ -1,3 +1,3 @@
 <?php
 
-$BASE_URL = 'http://localhost/scraping-bmkg';
+$BASE_URL = 'http://localhost:9999';
